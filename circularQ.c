@@ -25,6 +25,13 @@ void debugQ(QueueType *cQ);
 
 element getElement();
 
+int freeQueue(QueueType *cQ){
+	if(cQ==NULL) return 1;
+
+	free(cQ);
+	return 1;
+}
+
 
 int main(void)
 {
@@ -59,6 +66,7 @@ int main(void)
 			debugQ(cQ);
 			break;
 		case 'q': case 'Q':
+			freeQueue(cQ);
 			break;
 		default:
 			printf("\n       >>>>>   Concentration!!   <<<<<     \n");
