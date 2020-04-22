@@ -33,6 +33,7 @@ int main(void)
 
 	char command;
 
+	printf("[-----ÀÌÇõ¼ö 2019038026-----]\n");
 	do{
 		printf("\n-----------------------------------------------------\n");
 		printf("                     Circular Q                   \n");

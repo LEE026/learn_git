@@ -228,6 +228,7 @@ int main()
 {
 	char command;
 
+	printf("[-----ÀÌÇõ¼ö 2019038026-----]\n");
 	do{
 		printf("----------------------------------------------------------------\n");
 		printf("               Infix to Postfix, then Evaluation               \n");
